@@ -7,10 +7,13 @@
     "name": "nopear",
     "email": "xc980503@163.com"
   },
-  "repository": "/blog",
+  "repository": "/blog_nopear",
   "scripts": {
     "dev": "vuepress dev blog",
-    "build": "vuepress build blog"
+    "build": "vuepress build blog",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
   },
   "license": "MIT",
   "devDependencies": {
